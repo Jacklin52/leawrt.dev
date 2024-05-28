@@ -1,0 +1,71 @@
+/* MyComponent.module.css */
+.card {
+    background: #f1edf3;
+    margin-left: 170px;
+    align-items: center; /* sadece flex container içinde çalışır, eğer bir flex container değilse bu satırı kaldırabilirsiniz */
+    height: 330px;
+    width: 280px;
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    position: absolute;
+    transform: translateX(-50%);
+    bottom: -80px;
+    white-space: nowrap; /* sadece flex container içinde çalışır, eğer bir flex container değilse bu satırı kaldırabilirsiniz */
+    font-size: 15px;
+       
+}
+  .bulurCard {
+    position: relative;
+    width: 230px;
+    height: 128px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  .circleImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border: 2px solid #fff;
+  }
+  /* MyComponent.module.css */
+.infoContainer {
+    position: absolute;
+    margin-left: 10px;
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: 600;
+    color: #000000;
+  }
+  
+  .description {
+    font-size: 13px;
+    color: #959496;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 45px;
+  }
+  
+  .link {
+    position: absolute;
+    bottom: 25px;
+    font-weight: 600;
+    color: #808080;
+  }
+  
+  .iconImage {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    margin-left: 10px;
+    position: absolute;
+    border-radius: 8px;
+    margin-top: 130px;
+    right: 18px;
+  }
+  
